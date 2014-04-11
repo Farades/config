@@ -1,0 +1,78 @@
+XTerm*scrollBar: False
+XTerm*scrollBar.DrawBorder: False
+!XTerm*ScrollBar.Background: gray
+!XTerm*ScrollBar.Background: black
+!XTerm*ScrollBar.thickness: 0
+!XTerm*ScrollBar.foreground: gray
+
+XTerm*saveLines: 2000
+
+XTerm*reverseVideo: false
+XTerm*reverseWrap: true
+XTerm*fullCursor: true
+XTerm*scrollTtyOutput: on
+XTerm*scrollKey: on
+XTerm*eightBitInput: false
+!XTerm*pointerColor: white
+!XTerm*pointerShape: left_ptr 
+XTerm*charClass: 37:48,45-47:48,58:48,64:48,126:48
+
+!XTerm*cursorBlink: on
+!XTerm*cursorOffTime: 300
+!XTerm*cursorOnTime: 900
+
+XTerm*foreground: #DCDCCC
+XTerm*background: #2F2F2F
+XTerm*cursorColor: #DDDDFF
+XTerm*cursorColor2: #020202
+
+XTerm*color0: #3F3F5F
+!!green
+XTerm*color1: #E07050
+!!red
+XTerm*color2: #60B48A
+XTerm*color3: #DFAF8F
+XTerm*color4: #4F5F6F
+!!escape char in string
+XTerm*color5: #DC8CC3 
+XTerm*color6: #8CD0D3
+!!selection
+XTerm*color7: #104050
+XTerm*color8: #709080
+XTerm*color9: #FC5555
+XTerm*color10: #72D5A3
+XTerm*color11: #F0DFAF 
+XTerm*color12: #94BFF3
+XTerm*color13: #EC93D3
+XTerm*color14: #E3E0E3
+XTerm*color15: white
+
+XTerm*colorBD: #709080
+!!!vim file open browse
+XTerm*colorUL: #4C7CFC
+!
+XTerm*colorBDMode: on
+XTerm*colorULMode: on
+XTerm*underLine: on
+
+!XTerm.font: -rfx-serenetypewriter-bold-r-normal-*-14-*-*-*-*-*-koi8-r
+!XTerm*font: -adobe-courier-medium-r-normal*14-140-75-75-m-90*
+
+XTerm.font1: 5x7
+XTerm.font2: 6x10
+XTerm.font3: fixed
+XTerm.font4: 9x15
+XTerm*boldFont: fixed
+XTerm*loginShell: true
+
+!XTerm*font: -*-terminus-medium-r-*-*-14-*-*-*-*-*-iso10646-*
+
+!XTerm*faceName: Monospace
+XTerm*faceName: DejaVuSansMono
+!XTerm*faceName: LiberationMono-Regular
+XTerm*faceSize: 9.4
+!XTerm*faceSize: 12
+XTerm*VT100.translations: #override <Btn1Up>: select-end(PRIMARY, CLIPBOARD, CUT_BUFFER0)
+
+XTerm*utf8: true
+XTerm*geometry: 100x80
